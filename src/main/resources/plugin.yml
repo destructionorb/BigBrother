@@ -1,6 +1,6 @@
 name: BigBrother
 version: 1.0
-author: Waveos
+author: destructionorb
 api-version: 1.15
 main: net.paradiserealms.bigbrother.BigBrother
 permissions:
