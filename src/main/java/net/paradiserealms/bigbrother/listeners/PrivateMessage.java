@@ -19,7 +19,7 @@ public class PrivateMessage implements Listener {
         if(command.equals("/w") || command.equals("/m") || command.equals("/msg") || command.equals("/whisper") || command.equals("/r")) {
             for(Player online : Bukkit.getOnlinePlayers()) {
                 if(online.hasPermission("bigbrother.pm")) {
-                    online.sendMessage(ChatColor.GRAY + "[" + player + ": " + e.getMessage() + "]");
+                    online.sendMessage(ChatColor.GRAY + "[" + player.getName() + ": " + e.getMessage() + "]");
                 }
             }
         }

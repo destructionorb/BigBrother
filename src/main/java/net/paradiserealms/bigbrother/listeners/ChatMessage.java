@@ -17,7 +17,7 @@ public class ChatMessage implements Listener {
 
         for(Player online : Bukkit.getOnlinePlayers()) {
             if(online.hasPermission("bigbrother.cm")) {
-                online.sendMessage(ChatColor.GRAY + "[" + player + ": " + message + "]");
+                online.sendMessage(ChatColor.GRAY + "[" + player.getName() + ": " + message + "]");
             }
         }
     }
@@ -32,7 +32,7 @@ public class ChatMessage implements Listener {
         if(command.equals("/g") || command.equals("/h") || command.equals("/t") || command.equals("/l")) {
             for(Player online : Bukkit.getOnlinePlayers()) {
                 if(online.hasPermission("bigbrother.cm")) {
-                    online.sendMessage(ChatColor.GRAY + "[" + player + ": " + e.getMessage() + "]");
+                    online.sendMessage(ChatColor.GRAY + "[" + player.getName() + ": " + e.getMessage() + "]");
                 }
             }
         }

@@ -18,7 +18,7 @@ public class SignPlace implements Listener {
 
         for(Player online : Bukkit.getOnlinePlayers()) {
             if(online.hasPermission("bigbrother.sp")) {
-                online.sendMessage(ChatColor.GRAY + "[" + player + ": " + Arrays.toString(lines) + "]");
+                online.sendMessage(ChatColor.GRAY + "[" + player.getName() + ": " + Arrays.toString(lines) + "]");
             }
         }
     }

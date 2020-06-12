@@ -10,8 +10,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 //TODO: comment out the plugin
 //TODO: set up the config to allow users to select which parts of the plugin they want active
 //TODO: reload command
-//TODO: sanitize outputs (just give the book pages, just the playername not the extra "craft" stuff
-//TODO: add herochat commands to ChatMessage.java
 
 public class BigBrother extends JavaPlugin {
 
