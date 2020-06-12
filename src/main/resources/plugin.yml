@@ -1,0 +1,16 @@
+name: BigBrother
+version: 1.0
+author: Waveos
+api-version: 1.15
+main: net.paradiserealms.bigbrother.BigBrother
+permissions:
+  bigbrother.*:
+    description: Grants all permissions
+  bigbrother.pm:
+    description: Allows the user to see private messages
+  bigbrother.wb:
+    description: Allows the user to see written books
+  bigbrother.cm:
+    description: Allows the user to see all chat messages (local, etc)
+  bigbrother.sp:
+    description: Allows the user to see placed signs
