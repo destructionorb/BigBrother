@@ -6,6 +6,8 @@ import net.paradiserealms.bigbrother.listeners.SignPlace;
 import net.paradiserealms.bigbrother.listeners.WriteBook;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+//TODO: add location to sign placement
+//TODO: add lines to sign text formatting, instead of separating with commas
 
 /**
  * The main class of the BigBrother plugin. Handles the logic for enabling and disabling the server, as well as loading
