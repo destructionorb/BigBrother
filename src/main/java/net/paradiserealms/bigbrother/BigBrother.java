@@ -1,5 +1,6 @@
 package net.paradiserealms.bigbrother;
 
+import net.paradiserealms.bigbrother.commands.CommandReload;
 import net.paradiserealms.bigbrother.listeners.ChatMessage;
 import net.paradiserealms.bigbrother.listeners.PrivateMessage;
 import net.paradiserealms.bigbrother.listeners.SignPlace;
@@ -9,7 +10,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 //TODO: figure out how to do commands that allow parts of the plugin and the entire plugin to be disabled individually
 //TODO: comment out the plugin
 //TODO: set up the config to allow users to select which parts of the plugin they want active
-//TODO: reload command
 
 public class BigBrother extends JavaPlugin {
 
@@ -22,6 +22,8 @@ public class BigBrother extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new SignPlace(), this);
         getServer().getPluginManager().registerEvents(new WriteBook(), this);
         getServer().getPluginManager().registerEvents(new PrivateMessage(), this);
+
+        getCommand("reload").setExecutor(new CommandReload(this));
 
         loadConfig();
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "\n\nBig Brother is watching.\n\n" );

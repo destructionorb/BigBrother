@@ -13,7 +13,7 @@ public class PrivateMessage implements Listener {
     public void onPrivateMessage(PlayerCommandPreprocessEvent e) {
         Player player = e.getPlayer();
         String command = e.getMessage();
-        String commandSplit[] = command.split(" ", 2);
+        String[] commandSplit = command.split(" ", 2);
         command = commandSplit[0];
 
         if(command.equals("/w") || command.equals("/m") || command.equals("/msg") || command.equals("/whisper") || command.equals("/r")) {
