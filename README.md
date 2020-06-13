@@ -3,12 +3,12 @@
 This plugin is intended for use on Spigot 1.15.2 servers.<br/>
 The plugin provides administrators with the ability: <br/>
 <ul>
-  <li/>To see all private messages (sent through the commands /w, /m, /msg, /whisper, and /r)<br/>
-  <li/>To see the contents of all written books<br/>
-  <li/>To see all regular chat messages (support for HeroChat channels accessed through the command will be added at a later date)<br/>
-  <li/>To see all placed signs<br/>
+  <li/>To see all private messages (sent through the commands /w, /m, /msg, /whisper, and /r)
+  <li/>To see the contents of all written books
+  <li/>To see all regular chat messages. HeroChat channels "g," "l," "h," and "t," are supported. More can be added at request.
+  <li/>To see all placed signs
 </ul>
-BigBrother currently works "out of the box," but a configuration file is planned for the future.<br/>
+BigBrother works out of the box, but the configuration file allows you to choose which modules you want to use.<br/>
 
 <h3>PERMISSIONS:</h3>
 bigbrother.*:<br/>
@@ -20,4 +20,4 @@ bigbrother.*:<br/>
   bigbrother.cm:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;description: Allows the user to see all chat messages (local, etc)<br/>
   bigbrother.sp:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;description: Allows the user to see placed signs
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;description: Allows the user to see placed signs<br/>
