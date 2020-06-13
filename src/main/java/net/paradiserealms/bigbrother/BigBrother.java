@@ -23,7 +23,7 @@ public class BigBrother extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new WriteBook(), this);
         getServer().getPluginManager().registerEvents(new PrivateMessage(), this);
 
-        getCommand("reload").setExecutor(new CommandReload(this));
+        getCommand("bigbrother").setExecutor(new CommandReload(this));
 
         loadConfig();
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "\n\nBig Brother is watching.\n\n" );
