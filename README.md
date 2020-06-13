@@ -1,5 +1,5 @@
 # BigBrother
-<h1>Advanced Spigot "Social Spy" plugin</h1>
+<h1>Advanced "Social Spy" plugin for Spigot MC</h1>
 This plugin is intended for use on Spigot 1.15.2 servers.<br/>
 The plugin provides administrators with the ability: <br/>
 <ul>
