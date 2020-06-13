@@ -1,0 +1,5 @@
+#Enable/disable Modules, all are enabled by default
+PrivateMessage: true
+WriteBook: true
+ChatMessage: true
+SignPlace: true

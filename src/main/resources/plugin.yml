@@ -14,9 +14,7 @@ permissions:
     description: Allows the user to see all chat messages (local, etc)
   bigbrother.sp:
     description: Allows the user to see placed signs
-  bigbrother.reload:
-    description: Allows the user to reload the plugin
-commands:
-  reload:
-    description: Reloads the plugin config
-    usage: /bigbrother reload
+
+
+
+
